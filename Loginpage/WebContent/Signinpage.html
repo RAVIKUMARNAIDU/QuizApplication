@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+<form action="LoginServlet" method="get">
+  <h1>Loginpage</h1>
+  
+<div class="form-group">
+  <label for="usr">Name:</label>
+  <input type="text" class="form-control" name="usr">
+</div>
+<div class="form-group">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" name="pwd">
+</div>
+<div class="radio">
+  <label><input type="radio" value="student" name="optradio">Student</label>
+</div>
+<div class="radio">
+  <label><input type="radio" value="teacher" name="optradio">Teacher</label>
+</div>
+<div class="container">
+<input type="submit" class="btn btn-info" value="Submit">
+<a href="Studentlogin.html"> New Student SignUp</a>
+<a href="TeacherDetails.html"> New Teacher SignUp</a>
+</div>
+</form>
+</body>
+</html>
